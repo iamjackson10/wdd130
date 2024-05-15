@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: #256EFF;
+    --secondary-color: #D6FFF6;
+    --accent1-color: #231651;
+    --accent2-color: #6849dc;
+
+    --heading-font: 'Jacquard' serif;
+    --paragraph-font: 'Montserrat', serif;
+    
+    --nav-background-color: #D6FFF6;
+    --nav-link-color: #231651;
+    --nav-hover-link-color: #6140db;
+    --nav-hover-background-color: #256EFF;
+
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+p{
+   padding: 20px;
+   font-family: var(--paragraph-font);
+}
+header{
+    padding: 24px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+
+}
+nav a:hover{
+    color: white;
+    background-color: var(--nav-hover-background-color);
+
+}
