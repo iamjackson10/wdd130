@@ -25,7 +25,7 @@ h1 {
 }
 
 main img {
-width: 150;
+width: 150px;
 height: auto;
 border: 1px solid steelblue;
 padding: 2px;
@@ -59,7 +59,6 @@ footer {
 }
 
 /* Class selectors */
-
 .box{
   margin: 1rem;
   padding: 1rem;
@@ -68,7 +67,7 @@ footer {
   color: #000;
 }
 
-aside h2 {
+aside h3 {
   position: absolute;
   top: 47px;
   left: 110px;
