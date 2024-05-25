@@ -79,3 +79,38 @@ p {
    article p{
     color: #ffffff;
    }
+
+   header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr 1fr;
+    align-items: center;
+    border: 1px solid #ccc;
+    max-width: 1000px;
+    }
+
+    .logo img {
+        margin: 0 0.25rem 0 1rem;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-family: 'jacquard', arial, sans-serif;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /*.navigation {
+        display: flex;
+        list-style: none;
+    }
+
+    .navigation li { 
+        display: block;
+        color: navy;
+        padding: 20px;
+        text-decoration: none;
+    }
