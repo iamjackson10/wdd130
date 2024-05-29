@@ -34,7 +34,7 @@ h1 { color: var(--secondary-color);
 }
     
 h2 {
-    color: #06b7fc;
+    color: rgb(24, 24, 226);
     font-family: 'jacquard', arial, sans-serif;
 }
 
