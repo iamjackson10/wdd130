@@ -190,7 +190,7 @@ p {
     }
     
     .adventure figure {
-        margin: 0; /* Remove default margin for figures */
+        margin: 0; 
         justify-self: center;
     
     }
@@ -235,6 +235,7 @@ p {
 
     article img {
         max-width: 250px;
+        border-radius: 5px;
         
     }
 
@@ -250,6 +251,8 @@ p {
     fieldset {
         margin-bottom: 20px;
     }
+
+    
 
    
 
