@@ -72,7 +72,7 @@ p {
        float: right;
    }
    article {
-       background-color: #894b22;
+       /* background-color: #894b22; */
        width: 85%;
        margin-left: 10%;
    }
@@ -102,6 +102,7 @@ p {
     h1 {
         font-size: 2rem;
         font-family: 'jacquard', arial, sans-serif;
+        text-align: center;
     }
     
     
@@ -197,7 +198,7 @@ p {
     .adventure img {
         justify-self: center;
         width: 100%;
-        height: auto; /* Maintain aspect ratio */
+        height: auto; /* Adhere proper ratio */
     }
     
     .adventure figcaption {
@@ -227,7 +228,28 @@ p {
         background-color: rgba(255,255,255, 0.01);
     }
     
-    log
+    article {
+        display: flex;
+        justify-content: space-evenly;    
+    }
+
+    article img {
+        max-width: 250px;
+        
+    }
+
+    p {
+        text-align: center;
+    }
+
+    label {
+        display: block;
+
+    }
+
+    fieldset {
+        margin-bottom: 20px;
+    }
 
    
 

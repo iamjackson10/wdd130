@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: grid;
+  width: 40%;
+  justify-content: center;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+h1 {
+  margin: 0 auto;
+  height: auto;
+  margin-bottom: 20px;
+  color: rgb(5, 5, 128);
+  text-align: center;
+  /* border-bottom: 1px solid black; */
+  /* border-radius: 1px; */
+
+
+}
+.form-item {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  /* border: 1px solid black; */
+  justify-content: center;
+}
+
+form input[type="Submit"] {
+  width: 90%;
+  background-color: rgb(9, 9, 136);
+  margin: 0 auto;
+  color: white;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid rgb(5, 5, 128);
+}
+input[type="number"] {
+  width: 98%;
+}
+label{
+  margin-bottom: 5px;
+  width: 100%;
+
+}
+input, select {
+  height: 30px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: white;
+
+}
+span {
+  color: rgb(5, 5, 128);
+}
+.num-type p{
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+

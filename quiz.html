@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <meta name="description" content="Innocent Jackson | Quiz Form">
+    <meta name="author" content="Innocent Jackson">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+   
+        <form action="#">
+            <h1>Basic HTML and CSS Quiz.</h1>
+            
+            <div class="form-item">
+                <label for="q1"><span>1</span>. What does the acronym CSS stand for/mean ?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+
+            <div class="form-item">
+                <label for="q2"><span>2</span>. How are id and class attributes selected in CSS</label>
+                <textarea name="q2" id="q2" rows="4"></textarea>
+            </div>
+            
+            <div class="form-item">
+                <label for="q3"><span>3</span>. Which of the following is a valid CSS comment</label>
+                <select name="q3" id="q3">
+                    <option value="example" selected disabled>Choose One ...</option>
+                    <option value="one">A</option>
+                    <option value="two">B</option>
+                    <option value="three">None of the above</option>
+                    <option value="four">All of the above</option>
+                </select>
+            </div>
+
+            <div class="form-item num-type">
+                <label for="q4"><span>4</span>. What is the bottom margin given this declaration</label>
+                <p>margin: 10px 5px 15px</p>
+                <input type="number" name="q4" id="q4" >
+            </div>
+
+
+                <input type="submit" value="Submit Quiz">
+        </form>
+    
+    
+</body>
+</html>
