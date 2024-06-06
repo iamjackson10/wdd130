@@ -358,6 +358,96 @@ figure {
 figure img {
     max-width: 250px;
     border-radius: 5px;
+
+    /* styling the home page  */
+
+  .action .booking {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .action .booking img {
+    margin-top: 50px;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+
+  .action .booking figcaption {
+    text-align: center;
+  }
+
+  .action .booking .price {
+    text-align: center;
+    
+  }
+
+  .explore {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .signup fieldset {
+    margin-top: 50px;
+    margin-left: 40%;
+    max-width: 200px;
+    justify-self: auto;
+    
+  }
+
+  .booking figcaption {
+    width: 200px;
+    text-align: center;
+  }
+
+  .bottom-image {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .bottom-image .text-field {
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .bottom-image .text-field h2{
+    text-align: center;
+}
+
+.bottom-image img {
+    position: absolute;
+    margin-left: 30px;
+    top: 12px;
+}
+
+.bottom-image .text-field a {
+    background-color: antiquewhite;
+    text-align: center;
+    display: block;
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.bottom-image .text-field p{
+    text-align: center;
+}
     
 
 
