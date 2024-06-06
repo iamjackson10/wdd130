@@ -253,7 +253,116 @@ p {
     }
 
     
+/* Here start css for Trip Page */
 
+.contact-us {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 10%;
+    background-color: ;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 25px;
+    padding: 12.5px;
+    border-radius: 10px;
+}
+
+.trips-pics {
+    grid-area: 1/1/1/8;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trips-pics figure {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.trips-pics figure  a{
+    display: block;
+    text-align: center;
+    font-size:22px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: blue;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 22px;
+    padding-top: 9px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.trip-description {
+    grid-area: 1/8/1/10;
+    width: 100%;
+    padding: 5px;
+    background-color: #ddd;
+
+    
+
+}
+
+.table-layout{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    width: 90%;
+    margin-left: 10%;
+}
+
+table {
+    grid-area: 1/1/1/8;
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+tbody th, tbody td {
+    
+    height: 50px;
+    text-align: center;
+}
+tbody tr:nth-of-type(even){
+    background-color: #ddd;
+}
+thead tr{
+    background-color: #000;
+    color: white;
+}
+
+thead th{
+    border-bottom: 1px solid black;
+    height: 50px;
+    font: 30px;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 30px;
+}
+
+figure {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+figure img {
+    max-width: 250px;
+    border-radius: 5px;
+    
+
+
+
+   
    
 
 
